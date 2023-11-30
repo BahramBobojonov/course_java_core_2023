@@ -8,7 +8,7 @@ public class IndTask07 {
         Scanner in = new Scanner(System.in);
         LocalDate current_date = LocalDate.now();
         int year = current_date.getYear();
-        System.out.println("Введите ваш возраст: ");
+        System.out.println("Введите возраст: ");
         int age = in.nextInt();
         int byear = year - age;
         System.out.println("Ваш год рождения: " + byear);

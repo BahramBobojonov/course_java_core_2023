@@ -9,7 +9,7 @@ public class IndTask02 {
         String name = in.nextLine();
         System.out.println("Введите возраст: ");
         int age = in.nextInt();
-        System.out.println("Человек по имени " + name + "имеет возраст равный - " + age);
+        System.out.println("Человек с именем " + name + " имеет возраст - " + age);
         in.close();
     }
 }

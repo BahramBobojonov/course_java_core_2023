@@ -8,10 +8,10 @@ public class IndTask05 {
         Scanner in = new Scanner(System.in);
         LocalDate current_date = LocalDate.now();
         int year = current_date.getYear();
-        System.out.println("Введите ваш год рождения: ");
+        System.out.println("Введите год рождения: ");
         int biryear = in.nextInt();
         int age = year - biryear;
-        System.out.println("Ваш возраст: " + age);
+        System.out.println("Возраст пользователя: " + age);
         in.close();
     }
 }

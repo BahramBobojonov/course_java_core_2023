@@ -13,7 +13,7 @@ public class IndTask06 {
         System.out.println("Введите год рождения: ");
         int biryear = in.nextInt();
         int age = year - biryear;
-        System.out.println("Человек - " + name + ", имеет возраст - " + age);
+        System.out.println("Человек - " + name + ", возраст которого - " + age + " лет");
         in.close();
     }
 }
