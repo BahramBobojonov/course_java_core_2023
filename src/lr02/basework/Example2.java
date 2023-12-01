@@ -1,6 +1,6 @@
 package lr02.basework;
 
-public class Example22 {
+public class Example2 {
     public static String getEncryptString(String encryptString, int shift){
 
         char[] arrayChar = encryptString.toCharArray();
@@ -14,14 +14,11 @@ public class Example22 {
         encryptString = new String(arrayCharNew);
         return encryptString;
     }
-
     //Добавочный метод для работы класса шифрования:
     public static void main(String[] args) {
-        String message = "Привет мир от Ахмета Давлятшина!";
+        String message = "Привет мир!";
         int shift = 5;
-
         String encryptedMessage = getEncryptString(message, shift);
         System.out.println("Зашифрованное сообщение: " + encryptedMessage);
     }
 }
-
