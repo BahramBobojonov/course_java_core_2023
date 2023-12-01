@@ -8,6 +8,6 @@ public class TestTriangleIndTask06 extends Triangle{
     public static void main(String[] args) {
         Triangle triangle = new Triangle(9, 8, 7);
         System.out.println("Площадь треугольника = " + triangle.calculateArea());
-        System.out.println("Периметр треугольника = : " + triangle.calculatePer());
+        System.out.println("Периметр треугольника = " + triangle.calculatePer());
     }
 }

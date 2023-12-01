@@ -1,6 +1,5 @@
 package lr02.indwork.IndTask04;
 
-//Имя класса IndWork24 подразумевает название Person по заданию
 public class IndTask04 {
     private String name;
     private int age;
@@ -31,12 +30,12 @@ public class IndTask04 {
     }
     //Пример использования класса Person:
     public static void main(String[] args) {
-        IndTask04 person = new IndTask04("Ахмет", 24, "Мужской");
+        IndTask04 person = new IndTask04("Баходур", 24, "Мужской");
         System.out.println("Имя: " + person.getName());
         System.out.println("Возраст: " + person.getAge());
         System.out.println("Пол: " + person.getGender());
 
-        person.setAge(30);
+        person.setAge(25);
         System.out.println("Новый возраст: " + person.getAge());
     }
 }

@@ -9,7 +9,7 @@ class CatAnimal extends Animal {
     }
     // Метод для звуков кошачих
     public void purr() {
-        System.out.println(getName() + " мурлыкает");
+        System.out.println(getName() + " мурлычет");
     }
     // Метод отображающий тип питания для кошачих
     public String getTypeEat() {

@@ -10,4 +10,3 @@ public class TestCircleIndTask06 extends Circle{
         System.out.println("Периметр круга = " + circle.calculatePer());
     }
 }
-

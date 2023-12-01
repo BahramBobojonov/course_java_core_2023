@@ -14,7 +14,7 @@ public class IndTask01 {
         for (int i = 0; i < size; i++) {
             array[i] = random.nextInt(1000);
         }
-        System.out.println("Массив: " + Arrays.toString(array));
+        System.out.println("Случайный массив: " + Arrays.toString(array));
 
         // Первый элемент массива как начальное минимальное значение
         int minValue = array[0];
@@ -36,7 +36,7 @@ public class IndTask01 {
         }
 
         System.out.println("Минимальное значение: " + minValue);
-        System.out.print("Индексы мин. элементов: ");
+        System.out.print("Индекс мин. элемента: ");
         for (int i = 0; i < minCount; i++) {
             System.out.print(minIndices[i] + " ");
         }
