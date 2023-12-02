@@ -21,4 +21,3 @@ public class CollectionsExample {
         System.out.println("Список пустой? " + names.isEmpty());
     }
 }
-
