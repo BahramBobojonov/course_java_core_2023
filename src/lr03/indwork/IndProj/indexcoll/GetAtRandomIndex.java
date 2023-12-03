@@ -15,7 +15,7 @@ public class GetAtRandomIndex {
 
     private static long getAtRandomIndex(List<Integer> list) {
         // Заполняем коллекцию элементами перед тестированием получения по индексу.
-        for (int i = 0; i < 1000000000; i++) {
+        for (int i = 0; i < 1000000; i++) {
             list.add(i);
         }
 
